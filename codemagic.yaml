@@ -1,11 +1,5 @@
 workflows:
   ios:
-    name: iOS Workflow
-    max_build_duration: 60
-    environment:
-      vars:
-        MY_VARIABLE: "value"
-    
     artifacts:
       - build/ios/iphoneos/Runner.app
       - build/ios/iphoneos/Runner.ipa
