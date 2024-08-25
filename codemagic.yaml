@@ -4,7 +4,7 @@ workflows:
     max_build_duration: 60
     environment:
       vars:
-    
+        MY_VARIABLE: "value"
     scripts:
       - name: Install dependencies
         script: |
