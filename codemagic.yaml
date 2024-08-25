@@ -6,10 +6,6 @@ workflows:
       vars:
         MY_VARIABLE: "value"
     scripts:
-      - name: Install dependencies
-        script: |
-          brew install --cask cocoapods
-          pod install
       - name: Build and package
         script: |
           flutter build ios --release --no-codesign
