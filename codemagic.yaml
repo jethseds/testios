@@ -5,10 +5,6 @@ workflows:
     environment:
       vars:
         MY_VARIABLE: "value"
-    scripts:
-      - name: Build and package
-        script: |
-          flutter build ios --release --no-codesign
     
     artifacts:
       - build/ios/iphoneos/Runner.app
